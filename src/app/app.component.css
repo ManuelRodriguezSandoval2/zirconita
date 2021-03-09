@@ -1,0 +1,42 @@
+
+
+a:focus{
+    outline: none;
+    box-shadow: 3px 3px 10px #333;
+    background: rgba(3,3,3,.18);
+  }
+
+  a:hover{
+    opacity: 0.7;
+  }
+  .listado {
+    height: auto;
+    width: 20%;
+    background-color: #fde6e2 ;
+    
+}
+ .main{
+    height: auto;
+    width: 80%;
+    background: whitesmoke;
+    float: right;
+ }
+  
+  .grid-container {
+    height: 100%;
+    display: flex;
+    grid-template-areas:
+      'listado main '
+    
+  }
+  a{text-decoration:none;
+    color:#000;
+  }
+    
+    img{
+      width: 40px; height: 40px;
+      
+      padding-right: 3mm;
+  
+  
+    }

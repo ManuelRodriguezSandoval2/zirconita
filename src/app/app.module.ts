@@ -50,7 +50,11 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { PrincipalComponent } from './principal/principal/principal.component';
-import { ProductosComponent } from './paginas/productos/productos.component';
+import {PulserasComponent} from './paginas/pulseras/pulseras.component';
+import { AnillosComponent } from './paginas/anillos/anillos.component';
+import { CadenasComponent } from './paginas/cadenas/cadenas.component';
+import { ArosComponent } from './paginas/aros/aros.component';
+import { ConjuntosComponent } from './paginas/conjuntos/conjuntos.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +62,11 @@ import { ProductosComponent } from './paginas/productos/productos.component';
     FooterComponent,
     HeaderComponent,
     PrincipalComponent,
-    ProductosComponent
+    PulserasComponent,
+    AnillosComponent,
+    CadenasComponent,
+    ArosComponent,
+    ConjuntosComponent
   ],
   imports: [
     BrowserModule,

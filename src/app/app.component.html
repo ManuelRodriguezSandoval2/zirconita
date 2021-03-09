@@ -1,7 +1,16 @@
 <app-header></app-header>
-
-
-
-    <app-principal></app-principal>
-
+<div class="grid-container">    
+    <div class="listado">
+    <ul class="list-group list-group-flush">
+      <a routerLink="pulseras" class="list-group-item"><img  [src]="'/assets/iconos/pulseras.svg'">Pulseras</a>
+      <a routerLink="anillos" class="list-group-item"><img  [src]="'/assets/iconos/anillos.svg'">Anillos</a>
+      <a routerLink="cadenas" class="list-group-item"><img  [src]="'/assets/iconos/cadena.svg'">Cadenas</a>
+      <a routerLink="aros" class="list-group-item"><img  [src]="'/assets/iconos/aros.png'">Aros</a>
+      <a routerLink="conjuntos" class="list-group-item"><img  [src]="'/assets/iconos/conjunto.jpg'">Conjuntos</a>
+</ul>
+</div>
+    <div class="main">        
+      <router-outlet></router-outlet>
+    </div>  
+    </div>
 <app-footer></app-footer>
